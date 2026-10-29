@@ -1,0 +1,20 @@
+{
+  "name": "genai",
+  "version": "1.0.0",
+  "description": "This Package contains code of my Ai Larning Journey",
+  "homepage": "https://github.com/pranshulcse/gen-ai#readme",
+  "bugs": {
+    "url": "https://github.com/pranshulcse/gen-ai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranshulcse/gen-ai.git"
+  },
+  "license": "ISC",
+  "author": "Pranshul",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
