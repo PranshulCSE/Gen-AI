@@ -16,3 +16,17 @@ console.log("Input tokens   :", u?.promptTokenCount);
 console.log("Output tokens  :", u?.candidatesTokenCount);
 console.log("Thinking tokens:", u?.thoughtsTokenCount ?? 0);
 console.log("Total          :", u?.totalTokenCount);
+
+// Content's Meta Data: {
+//   promptTokenCount: 8,
+//   candidatesTokenCount: 69,
+//   totalTokenCount: 77,
+//   promptTokensDetails: [ { modality: 'TEXT', tokenCount: 8 } ],
+//   serviceTier: 'standard'
+// }
+// Answer: In the context of AI and large language models, tokens are the fundamental units of text—roughly equivalent to syllables or short words—that the model reads and generates. Instead of processing entire sentencesat once, the AI breaks language down into these numerical fragments to analyze patterns, calculate probabilities, and predict the next logical piece of text in a sequence.
+// --- Usage ---
+// Input tokens   : 8
+// Output tokens  : 69
+// Thinking tokens: 0
+// Total          : 77
