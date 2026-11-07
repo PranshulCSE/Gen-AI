@@ -18,3 +18,12 @@ for (const q of questions) {
   console.log(`   Input tokens this turn: ${res.usageMetadata?.promptTokenCount}`);
   console.log(`   Output tokens this turn: ${res.usageMetadata?.candidatesTokenCount}`);
 }
+// Q: What is Node.js? Answer in 3 lines.
+//    Input tokens this turn: 13
+//    Output tokens this turn: 76
+// Q: And what is Express? Answer in 3 lines.
+//    Input tokens this turn: 102
+//    Output tokens this turn: 63
+// Q: Compare both in 3 lines.
+//    Input tokens this turn: 174
+//    Output tokens this turn: 104
