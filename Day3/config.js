@@ -6,7 +6,7 @@ export const MODEL = "gemini-3.5-flash-lite";
 export function createAI() {
   const apiKey = process.env.GEMINI_API_KEY?.trim();
 
-  if (!apiKey || apiKey === process.env.GEMINI_API_KEY) {
+  if (!apiKey) {
     throw new Error(
       "GEMINI_API_KEY is missing. Add a valid key to .env before running this script."
     );
