@@ -15,3 +15,20 @@ for (const temperature of temps) {
     await sleep(1000); // free tier ke liye thoda gap
   }
 }
+
+
+// Output: 
+// === temperature: 0 ===
+// Run 1: Chai Theory
+// Run 2: Chaiology
+// Run 3: Chaiology
+
+// === temperature: 1 ===
+// Run 1: Chaiology
+// Run 2: Chai & Chill
+// Run 3: Chaiology
+
+// === temperature: 2 ===
+// Run 1: Chaiology
+// Run 2: Chaiology
+// Run 3: Chaiology
