@@ -19,3 +19,10 @@ const history = [
   { role: "user", parts: [{ text: "Mera naam kya hai aur main kya karta hoon?" }] },
 ];
 console.log("History ke saath:", await ask(history));
+
+
+// Output:
+// Bina history: Mujhe aapka naam nahi pata, kyunki aapne mujhe abhi tak nahi bataya! 
+
+// Aapka naam kya hai? Aap mujhe bata sakte hain.
+// History ke saath: Aapka naam **Rahul** hai aur aap ek **MERN developer** hain!
